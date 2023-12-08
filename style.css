@@ -23,7 +23,7 @@ li.uno{
 }
 
 body {
-    background-color: #B6D8FE;
+    background-color: linear-gradient(to bottom, rgb(218, 213, 213), rgb(157, 157, 153));
 }
 
 header {
