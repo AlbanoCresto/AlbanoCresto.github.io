@@ -11,3 +11,7 @@ function showPopupGift021223(){
 function showPopupGift041223(){
     alert("Aujourd'hui ton cadeau est un indice : féminisme, 24, Jeff");
 }
+
+function showPopupGift081223(){
+    alert("Aujourd'hui ton cadeau est un deuxième indice : QUOI, QUAND, COMMENT");
+}
