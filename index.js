@@ -1,7 +1,7 @@
 alert("Vous êtes la plus belle femme du monde ! Utilisez votre charme à bon escient !");
 
 function showPopup(){
-    alert("Si tu ouvres ta case une fois que tu es au havre, tu gagne un massage de 20min en bonus !");
+    alert("Ce cadeau est cumulable avec le précédent");
 }
 
 function showPopupGift021223(){
