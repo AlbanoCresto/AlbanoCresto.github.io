@@ -23,7 +23,7 @@ li.uno{
 }
 
 body {
-    background-color: linear-gradient(to bottom, rgb(218, 213, 213), rgb(157, 157, 153));
+    background-image: linear-gradient(to bottom, rgb(218, 213, 213), rgb(157, 157, 153));
 }
 
 header {
@@ -108,6 +108,12 @@ li.cinco{
 
 li.seis{
     background-image: url(./Assets/bgcases/bgcatene.png);
+    background-position: center;
+    background-size: cover;
+}
+
+li.siete{
+    background-image: url(./Assets/Gifts/Salambos.png);
     background-position: center;
     background-size: cover;
 }
