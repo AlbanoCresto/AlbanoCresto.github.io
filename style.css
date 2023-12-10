@@ -112,6 +112,12 @@ li.seis{
     background-size: cover;
 }
 
+li.nueve{
+    background-image: url(./Assets/Gifts/totalessence.png);
+    background-position: center;
+    background-size: cover;
+}
+
 li.siete{
     background-image: url(./Assets/Gifts/Salambos.png);
     background-position: center;
@@ -130,6 +136,11 @@ li.magie{
     background-size: cover;
 }
 
+li.notday{
+    background-image: url(./Assets/bgcases/notday.png);
+    background-position: center;
+    background-size: cover;
+}
 li.notday{
     background-image: url(./Assets/bgcases/notday.png);
     background-position: center;
