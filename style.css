@@ -124,6 +124,12 @@ li.siete{
     background-size: cover;
 }
 
+li.diez{
+    background-image: url(./Assets/bgcases/justunmot.png);
+    background-position: center;
+    background-size: cover;
+}
+
 li.santaclaus{
     background-image: url(./Assets/bgcases/saping.png);
     background-position: center;
@@ -136,11 +142,6 @@ li.magie{
     background-size: cover;
 }
 
-li.notday{
-    background-image: url(./Assets/bgcases/notday.png);
-    background-position: center;
-    background-size: cover;
-}
 li.notday{
     background-image: url(./Assets/bgcases/notday.png);
     background-position: center;
