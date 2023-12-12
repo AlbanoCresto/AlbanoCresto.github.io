@@ -1,7 +1,7 @@
 alert("Vous êtes la plus belle femme du monde ! Utilisez votre charme à bon escient !");
 
 function showPopup(){
-    alert("Ce cadeau est cumulable avec le précédent");
+    alert("Ce Cadeau est un acrostiche de nos prénoms, bon j'avoue j'ai commencé à être à court d'idées quand je faisais le calendrier");
 }
 
 function showPopupGift021223(){
