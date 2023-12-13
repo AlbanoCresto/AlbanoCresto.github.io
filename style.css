@@ -136,6 +136,11 @@ li.once{
     background-size: cover;
 }
 
+li.doce{
+    background-image: url(./Assets/bgcases/pomedeu.png);
+    background-size: cover;
+}
+
 li.santaclaus{
     background-image: url(./Assets/bgcases/saping.png);
     background-position: center;
@@ -148,11 +153,6 @@ li.magie{
     background-size: cover;
 }
 
-li.notday{
-    background-image: url(./Assets/bgcases/notday.png);
-    background-position: center;
-    background-size: cover;
-}
 li.notday{
     background-image: url(./Assets/bgcases/notday.png);
     background-position: center;
