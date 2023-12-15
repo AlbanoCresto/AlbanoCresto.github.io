@@ -141,6 +141,16 @@ li.doce{
     background-size: cover;
 }
 
+li.trece{
+    background-image: url(./Assets/bgcases/bonflic.png);
+    background-size: cover;
+}
+
+li.quatorce{
+    background-image: url(./Assets/bgcases/crocheter.png);
+    background-size: cover;
+}
+
 li.santaclaus{
     background-image: url(./Assets/bgcases/saping.png);
     background-position: center;
