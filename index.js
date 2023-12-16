@@ -1,7 +1,7 @@
 alert("Vous êtes la plus belle femme du monde ! Utilisez votre charme à bon escient !");
 
 function showPopup(){
-    alert("Aujourd'hui tu as deux cadeaux, si tu clique sur le 15 dans la case tu as le premier, si tu cliques sur 12/2023 tu as le deuxième");
+    alert("Aujourd'hui c'est un cadeau particulier, il faudra contacter le SAV pour en connaître les conditions d'utilisation");
 }
 
 function showPopupGift021223(){
