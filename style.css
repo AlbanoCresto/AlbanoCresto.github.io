@@ -151,6 +151,11 @@ li.quatorce{
     background-size: cover;
 }
 
+li.quinze{
+    background-image: url(./Assets/bgcases/fonddeux.png);
+    background-size: cover;
+}
+
 li.santaclaus{
     background-image: url(./Assets/bgcases/saping.png);
     background-position: center;
