@@ -1,7 +1,7 @@
 alert("Vous êtes la plus belle femme du monde ! Utilisez votre charme à bon escient !");
 
 function showPopup(){
-    alert("Aujourd'hui c'est un cadeau particulier, il faudra contacter le SAV pour en connaître les conditions d'utilisation");
+    alert("Aujourd'hui c'est une prévision météo, voilà c'est tout je t'aime fort d'amour");
 }
 
 function showPopupGift021223(){
