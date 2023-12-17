@@ -156,6 +156,11 @@ li.quinze{
     background-size: cover;
 }
 
+li.seize{
+    background-image: url(./Assets/Gifts/lanneemarie.png);
+    background-size: cover;
+}
+
 li.santaclaus{
     background-image: url(./Assets/bgcases/saping.png);
     background-position: center;
