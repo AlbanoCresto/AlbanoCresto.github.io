@@ -1,185 +1,70 @@
-*{
-    padding: 0;
-    margin: 0;
-    border-color: black;
-    border : 5px;
-    font-family: "Chewy";
-}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA Marie</title>
+    <link rel="stylesheet" href="./style.css" class="style">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Assets/Img/coeur M+A transparent.png"/>
+</head>
+    <header><h1>Le Calendrier de l'avent de Marie CRESTEE</h1></header>
+<body>
+    <br>
+    <br>
+    <section>        
+        <div class="flexbox">
+            <h1>Les jours à ouvrir</h1><h3>(cliques sur la case du jour :)</h3><h1><a href="#" onclick="showPopup()">notice du jour</a></h1>
+            <br>
+                <ul>
+                    <li class="redbox uno"><a href="./Assets/Gifts/PDY.pdf" download="1er Cadeau"><h4>01/12/2023</h4></a></li>
+                    <li class="redbox dos"><a href="#" onclick="showPopupGift021223()"><h4>02/12/2023</h4></a></li>
+                    <li class="redbox tres"><a href="./Assets/Gifts/poeme1.txt" download="3eme cadeau"><h4>03/12/2023</h4></a></li>
+                    <li class="redbox quatro"><a href="#" onclick="showPopupGift041223()"><h4>04/12/2023</h4></a></li>
+                    <li class="redbox cinco"><a href="./Assets/Gifts/Bon dachat.png" download="5eme cadeau"><h4>05/12/2023</h4></a></li>
+                </ul>
+        </div>
+        <div class="flexbox">
+            <ul>
+                <li class="redbox seis"><a href="./Assets/Gifts/CATENE.pdf" download="6eme cadeau"><h4>06/12/2023</h4></a></li>
+                <li class="redbox siete"><a href="./Assets/Gifts/Salambos.png" download="7ème cadeau"><h4>07/12/2023</h4></a></li>
+                <li class="redbox quatro"><a href="#" onclick="showPopupGift081223()"><h4>08/12/2023</h4></a></li>
+                <li class="redbox nueve"><a href="./Assets/Gifts/totalessence.png" download="9ème cadeau"><h4>09/12/2023</h4></a></li>
+                <li class="redbox diez"><a href="#" onclick="showPopupGift101223()"><h4>10/12/2023</h4></a></li>
+            </ul>
+        </div>
+        <div class="flexbox">
+            <ul>
+                <li class="redbox once"><a href="./Assets/Gifts/case.pdf" download="11ème cadeau"><h4>11/12/2023</h4></a></li>
+                <li class="redbox doce"><a href="./Assets/Gifts/poemarie.txt" download="12ème cadeau"><h4>12/12/2023</h4></a></li>
+                <li class="redbox trece"><a href="./Assets/Gifts/bonflix.png" download="13ème cadeau"><h4>13/12/2023</h4></a></li>
+                <li class="redbox quatorce"><a href="#" onclick="showPopupGift141223()"><h4>14/12/2023</h4></a></li>
+                <li class="redbox quinze"><a href="./Assets/Gifts/NDEUX.pdf" download="15ème cadeau"><h4>15</a><a href="./Assets/Gifts/JR.pdf" download="15ème cadeau²">/12/2023</a></h4></li>
+            </ul>
+        </div>
+        <div class="flexbox">
+            <ul>
+                <li class="redbox seize"><a href="./Assets/Gifts/lanneemarie.png" download="16ème cadeau"><h4>16/12/2023</h4></a></li>
+                <li class="redbox dixsept"><a href="./Assets/Gifts/Prévisions météo 2024 en france.pdf" download="17ème cadeau"><h4>17/12/2023</h4></a></li>
+                <li class="daybox"><a href="#" onclick="showPopupGift181223()"><h4>18/12/2023</h4></a></li>
+                <li class="notday"><h4>19/12/2023</h4></li>
+                <li class="notday"><h4>20/12/2023</h4></li>
+            </ul>
+        </div>
+        <div class="flexbox">
+            <ul>
+                <li class="notday"><h4>21/12/2023</h4></li>
+                <li class="notday"><h4>22/12/2023</h4></li>
+                <li class="notday"><h4>23/12/2023</h4></li>
+                <li class="magie"><h4>24/12/2023</h4></li>
+                <li class="santaclaus"><h4>25/12/2023</h4></li>
+            </ul>
+        </div>
+    </section>
+</body>
 
-body h4{
-    color: white;
-    text-shadow: 1px 1px 3px black, 1px 1px 1em black, 1px 1px 20em black;
-}
+<script src="index.js"></script>
 
-img{
-    width: 100%;
-    max-width: 100%;
-}
-
-li.uno{
-    background-image: url(./Assets/bgcases/pdybg1.png);
-    background-position: center;
-    background-size: cover;
-}
-
-body {
-    background-image: linear-gradient(to bottom, rgb(218, 213, 213), rgb(157, 157, 153));
-}
-
-header {
-    color: blue;
-    text-align: center;
-}
-
-body h1{
-    color: blue;
-    text-align: center;
-}
-
-body h3{
-    color: blue;
-    text-align: center;
-    font-size: 0.5rem;
-}
-
-.flexbox ul{
-    display: flex;
-    justify-content: space-around;
-}
-
-.flexbox li{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    height: 100px;
-    width: 300px;
-    margin: 7px;
-    background-color: #9d64ff3b;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 4px 20px 2px black;
-    border: 0.2rem solid;
-    border-color: black;
-}
-
-li.redbox{
-    border: 0.2rem solid;
-    border-color: red;
-}
-
-li.daybox{
-    border: 0.2rem solid;
-    border-color: green;
-    background-image: url(./Assets/bgcases/daybox.png);
-    background-position: center;
-    background-size: cover;
-}
-
-.wrap-img{
-    flex-basis: 60%;
-    flex-wrap: wrap;
-}
-
-li.dos{
-    background-image: url(./Assets/bgcases/bgyt.png);
-    background-position: center;
-    background-size: cover;
-}
-
-li.tres{
-    background-image: url(./Assets/bgcases/bgpoeme.png);
-    background-position: center;
-    background-size: cover;
-}
-
-li.quatro{
-    background-image: url(./Assets/bgcases/bgmystere.png);
-    background-position: center;
-    background-size: cover;
-}
-
-li.cinco{
-    background-image: url(./Assets/bgcases/bgbondachat.png);
-    background-position: center;
-    background-size: cover;
-}
-
-li.seis{
-    background-image: url(./Assets/bgcases/bgcatene.png);
-    background-position: center;
-    background-size: cover;
-}
-
-li.nueve{
-    background-image: url(./Assets/Gifts/totalessence.png);
-    background-position: center;
-    background-size: cover;
-}
-
-li.siete{
-    background-image: url(./Assets/Gifts/Salambos.png);
-    background-position: center;
-    background-size: cover;
-}
-
-li.diez{
-    background-image: url(./Assets/bgcases/justunmot.png);
-    background-position: center;
-    background-size: cover;
-}
-
-li.once{
-    background-image: url(./Assets/bgcases/chatal.png);
-    background-position: center;
-    background-size: cover;
-}
-
-li.doce{
-    background-image: url(./Assets/bgcases/pomedeu.png);
-    background-size: cover;
-}
-
-li.trece{
-    background-image: url(./Assets/bgcases/bonflic.png);
-    background-size: cover;
-}
-
-li.quatorce{
-    background-image: url(./Assets/bgcases/crocheter.png);
-    background-size: cover;
-}
-
-li.quinze{
-    background-image: url(./Assets/bgcases/fonddeux.png);
-    background-size: cover;
-}
-
-li.seize{
-    background-image: url(./Assets/Gifts/lanneemarie.png);
-    background-size: cover;
-}
-
-li.dixsept{
-    background-image: url(./Assets/bgcases/nancybg.png);
-    background-size: cover;
-}
-
-li.santaclaus{
-    background-image: url(./Assets/bgcases/saping.png);
-    background-position: center;
-    background-size: cover;
-}
-
-li.magie{
-    background-image: url(./Assets/bgcases/magie.png);
-    background-position: center;
-    background-size: cover;
-}
-
-li.notday{
-    background-image: url(./Assets/bgcases/notday.png);
-    background-position: center;
-    background-size: cover;
-}
+</html>
