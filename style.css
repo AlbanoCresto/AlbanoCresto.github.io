@@ -161,6 +161,11 @@ li.seize{
     background-size: cover;
 }
 
+li.dixsept{
+    background-image: url(./Assets/bgcases/nancybg.png);
+    background-size: cover;
+}
+
 li.santaclaus{
     background-image: url(./Assets/bgcases/saping.png);
     background-position: center;
