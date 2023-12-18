@@ -1,7 +1,7 @@
 alert("Vous êtes la plus belle femme du monde ! Utilisez votre charme à bon escient !");
 
 function showPopup(){
-    alert("Aujourd'hui c'est une prévision météo, voilà c'est tout je t'aime fort d'amour");
+    alert("Aujourd'hui c'est un autre indice qui se regroupe avec les précédents");
 }
 
 function showPopupGift021223(){
@@ -22,4 +22,8 @@ function showPopupGift101223(){
 
 function showPopupGift141223(){
     alert("ce cadeau c'était le kit à crochet");
+}
+
+function showPopupGift181223(){
+    alert("L'indice d'aujourd'hui est : l'ordre est bon, les deux s'accordent");
 }
