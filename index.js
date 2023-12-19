@@ -1,7 +1,7 @@
 alert("Vous êtes la plus belle femme du monde ! Utilisez votre charme à bon escient !");
 
 function showPopup(){
-    alert("Aujourd'hui c'est un autre indice qui se regroupe avec les précédents");
+    alert("Juste un petit cadeau");
 }
 
 function showPopupGift021223(){
