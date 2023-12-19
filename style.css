@@ -166,6 +166,11 @@ li.dixsept{
     background-size: cover;
 }
 
+li.dixhuit{
+    background-image: url(./Assets/bgcases/bgmystere.png);
+    background-size: cover;
+}
+
 li.santaclaus{
     background-image: url(./Assets/bgcases/saping.png);
     background-position: center;
