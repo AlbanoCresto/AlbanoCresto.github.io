@@ -1,7 +1,7 @@
 alert("Vous êtes la plus belle femme du monde ! Utilisez votre charme à bon escient !");
 
 function showPopup(){
-    alert("Juste un petit cadeau");
+    alert("Un cadeau à jouer tous les deux ^^");
 }
 
 function showPopupGift021223(){
