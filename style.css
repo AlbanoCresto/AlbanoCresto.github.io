@@ -176,6 +176,11 @@ li.dixneuf{
     background-size: cover;
 }
 
+li.vingt{
+    background-image: url(./Assets/Gifts/picopark.png);
+    background-size: cover;
+}
+
 li.santaclaus{
     background-image: url(./Assets/bgcases/saping.png);
     background-position: center;
