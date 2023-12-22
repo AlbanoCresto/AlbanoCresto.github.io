@@ -1,7 +1,7 @@
 alert("Vous êtes la plus belle femme du monde ! Utilisez votre charme à bon escient !");
 
 function showPopup(){
-    alert("Un cadeau à jouer tous les deux ^^");
+    alert("Mmmmh");
 }
 
 function showPopupGift021223(){
@@ -26,4 +26,8 @@ function showPopupGift141223(){
 
 function showPopupGift181223(){
     alert("L'indice d'aujourd'hui est : l'ordre est bon, les deux s'accordent");
+}
+
+function showPopupGift221223(){
+    alert("·−−− ·  − ·−−−−· ·− ·· −− ·  − ·−· ·−··− ···  ··−· −−− ·−· − ");
 }
