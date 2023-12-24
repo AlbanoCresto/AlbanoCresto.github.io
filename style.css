@@ -181,6 +181,16 @@ li.vingt{
     background-size: cover;
 }
 
+li.vingtun{
+    background-image: url(./Assets/Gifts/harryplome.png);
+    background-size: cover;
+}
+
+li.vingtdeux{
+    background-image: url(./Assets/bgcases/meurse.png);
+    background-size: cover;
+}
+
 li.santaclaus{
     background-image: url(./Assets/bgcases/saping.png);
     background-position: center;
