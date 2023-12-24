@@ -1,7 +1,7 @@
-alert("Vous êtes la plus belle femme du monde ! Utilisez votre charme à bon escient !");
+alert("Il faut bien lire la notice svp madame");
 
 function showPopup(){
-    alert("Mmmmh");
+    alert("Pour le cadeau d'hier je l'ai fais sous forme de bon d'achat parce que t'adores les bons d'achat. Si tu me demande je te donne la réponse à l'énigme qui donne le cadeau d'aujourd'hui");
 }
 
 function showPopupGift021223(){
@@ -30,4 +30,8 @@ function showPopupGift181223(){
 
 function showPopupGift221223(){
     alert("·−−− ·  − ·−−−−· ·− ·· −− ·  − ·−· ·−··− ···  ··−· −−− ·−· − ");
+}
+
+function showPopupGift241223(){
+    alert("Tu auras ton cadeau en arrivant à Le Havre");
 }
