@@ -1,0 +1,15 @@
+*{
+    align-items: center;
+}
+
+p {
+    text-align: center;
+}
+
+.conteneur {
+    display: flex;
+    flex-direction: column;
+    /*border: solid black 2px;*/
+    width: 50vw;
+    margin: 0 auto;
+}
