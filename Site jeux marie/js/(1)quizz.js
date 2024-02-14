@@ -33,6 +33,9 @@ if (reponse1.toLowerCase() === "la mer noire") {
 if (parseInt(reponse2.toLowerCase) === solution2) {
     correctAnswers++;
 };
+if (parseInt(reponse2) === solution2) {
+    correctAnswers++;
+};
 
 alert(correctAnswers + " bonnes réponses");
 
